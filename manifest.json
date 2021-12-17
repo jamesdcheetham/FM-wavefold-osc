@@ -1,0 +1,21 @@
+{
+    "header" : 
+    {
+        "platform" : "nutekt-digital",
+        "module" : "osc",
+        "api" : "1.1-0",
+        "dev_id" : 0,
+        "prg_id" : 0,
+        "version" : "0.1-0",
+        "name" : "FMWF",
+        "num_param" : 6,
+        "params" : [
+            ["octave", -5, 2, "%"],		
+            ["semi", -12, 12, "%"],
+            ["cent", 0, 100, "%"],
+			["wave", 0, 100, "%"],
+            ["fm semi", 0, 48, "%"],
+		    ["fm cent", 0, 100, "%"]
+          ]
+    }
+}
