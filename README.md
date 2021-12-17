@@ -1,15 +1,39 @@
-# FMWF
-Custom oscillator for Korg NTS-1 featuring a variable waveform from saw to triangle to reverse saw, a wavefolder, frequency modulation and full pitch control.
+# logue-sdk 
 
-Knob A - Fm depth
-Knob B - Wavefold amount
+[日本語](./README_ja.md)
 
-Custom Parameters:
-1 - Carrier Oscillator pitch control: Octaves up/down
-2 - Carrier Oscillator pitch control: Semitones up/down
-3 - Cents up
-4 - waveform mix control (0 is saw wave, 50 is triangle, 100 is a reversed saw wave)
-5 - modulator Oscillator pitch control: semitones up
-6 - modulator Oscillator pitch control: cents up
+This repository contains all the files and tools needed to build custom oscillators and effects for the [prologue](https://www.korg.com/products/synthesizers/prologue), [minilogue xd](https://www.korg.com/products/synthesizers/minilogue_xd) and [Nu:Tekt NTS-1 digital kit](https://www.korg.com/products/dj/nts_1) synthesizers.
 
-Note: code needs clean up and some optimisation as it is fairly cpu heavy. This is my first coding project though so that will have to be a task for the future when I know what I'm doing
+#### Ready to Use Content
+
+To download ready to use oscillators and effects, refer to the [Unit Index](https://korginc.github.io/logue-sdk/unit-index/) and follow instructions on the developer's website.
+
+#### Compatibility Notes
+
+In order to run user units built with SDK version 1.1-0, the following firmware versions are required:
+* prologue: >= v2.00
+* minilogue xd: >= v2.00
+* Nu:Tekt NTS-1 digital: >= v1.02
+
+#### Overall Structure:
+* [platform/prologue/](platform/prologue/) : prologue specific files, templates and demo projects.
+* [platform/minilogue-xd/](platform/minilogue-xd/) : minilogue xd specific files, templates and demo projects.
+* [platform/nutekt-digital/](platform/nutekt-digital/) : Nu:Tekt NTS-1 digital kit specific files, templates and demo projects.
+* [platform/ext/](platform/ext/) : External dependencies and submodules.
+* [tools/](tools/) : Installation location and documentation for tools required to build projects and manipulate built products.
+* [devboards/](devboards/) : Information and files related to limited edition development boards.
+
+## Sharing your Oscillators/Effects with us
+
+To show us your work please reach out to *logue-sdk@korg.co.jp*.
+
+## Support
+
+The SDK is provided as-is, no technical support will be provided by KORG.
+
+<!-- ## Troubleshooting -->
+
+
+
+
+
